@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es-US" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Form.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P">
+    <title></title>
+  </head>
+  <body>
+    <h1>Flight finder:</h1>
+    <form action="Submitted.html" method="POST">
+      <label for="datepicker1">Pick the date you want to depart for your vacation</label><br>
+      <input type="date" id="datepicker1" name="datepicker1" min="2021-03-25" max="2022-03-25"><br>
+      <br>
+      <label for="datepicker2">Pick the date you want to return from your vacation</label><br>
+      <input type="date" id="datepicker2" name="datepicker2" min="2021-03-25" max="2022-03-25"><br>
+      <br>
+      <label for="time1">What time would you like to depart? (flights shown within 90 minutes of selected time)</label><br>
+      <input type="time" id="time1" name="time1"><br>
+      <br>
+      <label for="time2">What time would you like to return? (flights shown within 90 minutes of selected time)</label><br>
+      <input type="time" id="time2" name="time2"><br>
+      <br>
+      <label for="layover">How many layovers do you want?</label><br>
+      <input type="number" id="layover" name="layover" min="0" max="3"><br>
+      <br>
+      <input type="submit" value="Submit">
+    </form>
+    <div class="container">
+     <p>Thank you for booking your next trip with XYZ Airlines!!</p>
+     <p>Can't wait to see you on your travels!!</p>
+   </div>
+  </body>
+</html>
